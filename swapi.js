@@ -1,6 +1,6 @@
 
 
-async function getPeople() {
+async function getPeople (){
     const response = await fetch('https://swapi.dev/api/people/', 
                                     { method: 'GET' });
     const data = await response.json();
@@ -20,7 +20,7 @@ async function newArrayPersons() {
     console.log(filterHeightPersons);
 }
 
-// newArrayPersons();
+newArrayPersons();
 
 
 async function getVehicles() {
